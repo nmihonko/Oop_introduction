@@ -1,6 +1,5 @@
 package app;
 
-// Виправте цей клас
 public class Main {
 
     public static void main(String[] args) {
@@ -22,7 +21,6 @@ public class Main {
     }
 
     public static void getOutput(Customer customer) {
-        System.out.println("Customer: " + customer.getName() +
-                ", phone " + customer.getPhone());
+        System.out.println(String.format("Customer: %s, phone %s", customer.getName(), customer.getPhone()));
     }
 }
