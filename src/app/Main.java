@@ -1,6 +1,5 @@
 package app;
 
-// Виправте цей клас
 public class Main {
 
     public static void main(String[] args) {
